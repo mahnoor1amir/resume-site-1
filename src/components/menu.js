@@ -4,11 +4,12 @@ import { Link } from "gatsby"
 
 export default props => 
 <div className="menu">
-<Link to="/">Home</Link>
-<Link to="/projects/">Projects</Link>
-<Link to="/contact">Contact</Link>
-
-
-
+    <header>
+      <ul>
+        <Link to="/">Home</Link>
+		<Link to="/projects/">Projects</Link>
+		<Link to="/contact">Contact</Link>
+      </ul>
+    </header>
 
 </div>

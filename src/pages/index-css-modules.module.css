@@ -1,21 +1,8 @@
 
-body {
-  margin: 0;
-}
 
 .skills {
   clear: both;
-  padding: 1em 1em 2em 1em;
-  
-  background: rgb(233,103,162);
-  background: linear-gradient(0deg, rgba(109,226,136,1) 0%, rgba(239,255,242,1) 100%);
-/*
-
-  background: rgb(199,22,103);
-  background: linear-gradient(0deg, rgba(199,22,103,1) 0%, rgba(255,255,255,1) 100%);
-*/
 }
-
 .skill {
   display: flex;
   align-items: center;

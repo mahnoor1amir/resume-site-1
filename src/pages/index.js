@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import Layout from "../components/layout"
 import styles from "./index-css-modules.module.css"
 
 const Skill = props => (
@@ -16,9 +17,10 @@ const Skill = props => (
 )
 
 export default () => (
-	<div style={{ background: "#ccc"}}>
+	<div className="full">
 		<Header headerText="Jane Doe"
 		subhead="Software developer" />
+  <Layout>
 	<div className={styles.skills}>    
 	<h2>Skills</h2>
     <Skill
@@ -46,17 +48,8 @@ export default () => (
       username="Vim"
       excerpt="Skills include exiting."
     />
-
-
-
-
-
-
-	
-
-
-
 	</div>
+  </Layout>
 	<Footer footerText="This is the footer" />
 	</div>
 

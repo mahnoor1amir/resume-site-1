@@ -1,40 +1,38 @@
 import React from "react"
 import Header from "../components/header"
+import Layout from "../components/layout"
+import Footer from "../components/footer"
 import Container from "../components/container"
 
 import phone from "../images/phone-sm.jpg" 
+import chip from "../images/chip-sm.jpg" 
+import key from "../images/keyboard-sm.jpg" 
+import old from "../images/old-sm.jpg" 
 
 export default () => (
-  <div style={{ color: `teal` }}>
+ <div className="full">
   	<Header headerText="Projects"/>   
-
+  	<Layout>
 	<h2>Projects</h2>
 
-	<Container>
-		<img src={phone} alt="alt" />
-
-	    <h1>A Great Project</h1>
-	    <p>CSS Modules are cool</p>
+	<Container imgPath={old}
+	head="Awesome Project"
+	subhead="yada">
 	</Container>
-	<Container>
-		<img src="https://source.unsplash.com/random/400x200" alt="alt" />
-
-	    <h1>Another Super Amazing Project</h1>
-	    <p>CSS Modules are cool</p>
+	<Container imgPath={key}
+	head="Another Super Amazing Project"
+	subhead="yada">
 	</Container>  
-	<Container>
-		<img src="https://source.unsplash.com/random/400x200" alt="alt" />
-
-	    <h1>Showstopping Project</h1>
-	    <p>CSS Modules are cool</p>
+	<Container imgPath={chip}
+	head="Showstopping Project"
+	subhead="yada">
 	</Container>
-	<Container>
-		<img src="https://source.unsplash.com/random/400x200" alt="alt" />
-
-	    <h1>Another Showstopping Project</h1>
-	    <p>CSS Modules are cool</p>
+	<Container imgPath={phone}
+	head="Another Showstopping Project"
+	subhead="Now on mobile">
 	</Container>
-
+	</Layout>
+	<Footer />
   </div>
 
 
