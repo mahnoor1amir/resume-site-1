@@ -1,0 +1,21 @@
+html {
+/*  background-color: #333;
+*/}
+
+a {
+	color: white;
+	padding: 1em 2em;
+	text-decoration: none;
+}
+a:hover {
+	background: black;
+}
+
+.menu {
+	background: #333;
+	padding: 1em;
+}
+
+h2 {
+	font-family: helvetica, sans-serif;
+}
